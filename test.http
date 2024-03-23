@@ -1,0 +1,19 @@
+
+
+# ##GET ALL ITEMS
+# GET http://localhost:3000/items HTTP/1.1
+
+
+
+# ##GET ALL ITEMS
+# GET http://localhost:3000/items/2 HTTP/1.1
+
+
+##POst ALL ITEMS
+POST https://localhost:3000/itemshere HTTP/1.1
+Content-Type: application/jsoff
+//json
+
+{
+    "name": "New Item"
+}
